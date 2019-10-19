@@ -1,29 +1,15 @@
-# vue-demo-app
+# 项目说明
 
-## Project setup
-```
-yarn install
-```
+该项目主要用于验证vue中的各类实用插件
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## 快速启动
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+> yarn install
+> yarn serve
 
-### Run your tests
-```
-yarn run test
-```
+## 功能、插件列表
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> 1、[BetterScroll](./docs/BetterScroll.md)
+> 2、[VueInifiniteScroll](./docs/VueInfiniteScroll.md)
+> 3、[移动端rem布局配置](./docs/rem布局.md)
+> 4、[前端自动化之request.context的妙用](./docs/require-context的使用.md)
