@@ -87,14 +87,17 @@
 import Slider from '../components/Slider';
 import Scroll from '../components/Scroll';
 
-export default{
+export default {
     data() {
         return {
             recommends: [
-                {'picurl':'http://y.gtimg.cn/music/photo_new/T003R720x288M000002QA9kw0QwiVQ.jpg'},
-                {'picurl':'http://y.gtimg.cn/music/photo_new/T003R720x288M000002QA9kw0QwiVQ.jpg'},
-                {'picurl':'http://y.gtimg.cn/music/photo_new/T003R720x288M000002QA9kw0QwiVQ.jpg'},
-                {'picurl':'http://y.gtimg.cn/music/photo_new/T003R720x288M000002QA9kw0QwiVQ.jpg'}
+                { 'picurl': 'http://y.gtimg.cn/music/photo_new/T003R720x288M000002QA9kw0QwiVQ.jpg' },
+                { 'picurl': 'http://b-ssl.duitang.com/uploads/item/201208/30/20120830173930_PBfJE.jpeg' },
+                { 'picurl': 'http://b-ssl.duitang.com/uploads/item/201604/23/20160423185321_K2ueY.jpeg' },
+                { 'picurl': 'http://pic21.nipic.com/20120426/9940080_164340613124_2.jpg' },
+                { 'picurl': 'http://pic35.nipic.com/20131115/7002646_153323018000_2.jpg' },
+                { 'picurl': 'http://pic38.nipic.com/20140228/7815256_142332883000_2.jpg' },
+                { 'picurl': 'http://img1.imgtn.bdimg.com/it/u=1366904711,2699461808&fm=214&gp=0.jpg' }
             ],
             scrollX: true,
             scrollY: false,

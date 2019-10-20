@@ -33,14 +33,14 @@ export default {
     },
     methods: {
         loadData() {
-            if (this.loopCount > 30) {
+            if (this.loopCount > 60) {
                 this.busy = false;
                 this.hintText = '已无更多';
             } else {
                 this.busy = true;
                 this.hintText = '加载中...';
                 setTimeout(() => {
-                    for(let i = 0; i < 10; i++) {
+                    for (let i = 0; i < 10; i++) {
                         this.listData.push({
                             id: this.loopCount++,
                             name: 'loop item' + this.loopCount++
@@ -55,8 +55,7 @@ export default {
 </script>
 <style lang="less" scoped>
     .wrapper{
-        width: 90%;
-        margin: 75px auto;
+        width: 100%;
 
         .w-item {
             height: 150px;
@@ -64,7 +63,10 @@ export default {
             line-height: 150px;
             text-align: center;
             background-color: #eee;
-            margin-top: 10px;
+
+            &:nth-child(n+2) {
+              margin-top: 10px;
+            }
         }
         
         .hintText {

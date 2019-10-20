@@ -18,8 +18,9 @@ module.exports = {
     //   landscapeWidth: 568
     // }
     // rem布局需要配置的
+    // remUnit值是设计稿宽度的十分之一
     'postcss-px2rem': {
       remUnit: 75
     }
   }
-}
+};

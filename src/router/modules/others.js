@@ -13,5 +13,10 @@ export default [
     path: '/InfiniteSroll',
     name: 'InfiniteSroll',
     component: () => import(/* webpackChunkName: "InfiniteSroll" */ '../../views/InfiniteSroll.vue')
+  },
+  {
+    path: '/VueLazyload',
+    name: 'VueLazyload',
+    component: () => import(/* webpackChunkName: "VueLazyload" */ '../../views/VueLazyload.vue')
   }
 ]

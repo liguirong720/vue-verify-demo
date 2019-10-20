@@ -136,7 +136,7 @@ export default {
             this.rightEl.on('scrollEnd', (pos) => {
                 this.scrollY = Math.abs(pos.y);
                 for (let i = 0; i < this.listHeight.length; i++) {
-                    if(this.scrollY > this.listHeight[i] && this.scrollY < this.listHeight[i + 1]) {
+                    if (this.scrollY > this.listHeight[i] && this.scrollY < this.listHeight[i + 1]) {
                         this.currentIndex = i;
                     }
                 }
@@ -152,6 +152,7 @@ export default {
             }
         },
         handleLeftClick(index) {
+            this.currentIndex = index;
             let rightItems = this.$refs.right.querySelectorAll('.right-item-hook');
             this.rightEl.scrollToElement(rightItems[index], 300);
         }
