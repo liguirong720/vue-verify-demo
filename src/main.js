@@ -10,6 +10,7 @@ import { text } from './directives/text';
 import { html } from './directives/html';
 import { resize } from './directives/resize';
 import { focus } from './directives/focus';
+import 'swiper/css/swiper.min.css';
 
 Vue.use(VueLazyload, {
   preLoad: 1.3

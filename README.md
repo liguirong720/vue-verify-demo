@@ -18,3 +18,5 @@
 > 4、[前端自动化之request.context的妙用](./docs/require-context的使用.md)
 >
 > 5、[图片懒加载](./docs/vuelazyload.md)
+>
+> 6、[Swiper](./docs/swiper.md)

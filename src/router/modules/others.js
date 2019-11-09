@@ -18,5 +18,10 @@ export default [
     path: '/VueLazyload',
     name: 'VueLazyload',
     component: () => import(/* webpackChunkName: "VueLazyload" */ '../../views/VueLazyload.vue')
+  },
+  {
+    path: '/SwiperTab',
+    name: 'SwiperTab',
+    component: () => import(/* webpackChunkName: "VueLazyload" */ '../../views/SwiperTab.vue')
   }
 ]
